@@ -13,7 +13,6 @@ const axiosInstance = axios.create({
                     'JWT ' + localStorage.getItem('access_token') : 
                         'null',
         'Content-Type': 'application/json',
-	'Access-Control-Allow-Origin': '*',
         accept: 'application/json',
     },
 });
