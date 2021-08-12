@@ -7,7 +7,7 @@ export const baseurl = 'https://disc-forum.herokuapp.com/api';
 
 const axiosInstance = axios.create({
     baseURL : baseurl,
-    timeout : 5000,
+    timeout : 5000000,
     headers : {
         Authorization: localStorage.getItem('access_token') ? 
                     'JWT ' + localStorage.getItem('access_token') : 
